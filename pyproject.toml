@@ -1,22 +1,18 @@
 [project]
-name = '$PACKAGE'
-readme = 'README.md'
-requires-python = '>=3.10'
-dynamic = ['version', 'dependencies']
+name = "mock_py"
+readme = "README.md"
+requires-python = ">=3.10"
+dynamic = ["version", "dependencies"]
 
 
 [build-system]
-requires = ['setuptools>=75.0.0', 'wheel']
-build-backend = 'setuptools.build_meta'
+requires = ["setuptools>=75.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
 
 
 [tool.setuptools.packages.find]
-include = ['$PACKAGE']
-
-
-[tool.setuptools.package-data]
-'$PACKAGE' = ['**/*.py']
+where = ["src"]
 
 [tool.setuptools.dynamic]
-version = { attr = '$PACKAGE.__version__.__version__' }
-dependencies = { file = ['requirements.txt'] }
+version = { attr = "mock_py.__version__.__version__" }
+dependencies = { file = ["requirements.txt"] }
