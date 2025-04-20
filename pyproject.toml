@@ -8,8 +8,8 @@ dynamic = ["version", "dependencies"]
 requires-python = ">=3.10"
 authors = [{ name = "Package Author", email = "pauthor@mail.com" }]
 readme = "README.md"
-# license = "MIT"
-# license-files = ["LICEN[CS]E.*"]
+license = "MIT"
+license-files = ["LICEN[CS]E.*"]
 keywords = []
 classifiers = [
     "Programming Language :: Python :: 3",

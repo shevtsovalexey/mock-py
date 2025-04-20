@@ -6,6 +6,6 @@
 2. Update the `pyproject.toml`
     - replace `mock_py` according to the given to the `mock_py` folder name
     - set the package's author details
+    - change or delete the [license](https://choosealicense.com/) if needed
     - add some keywords
-    - (optional) add the [license](https://choosealicense.com/) file to the repository root and fill the details
 3. Update the `README.md` with the information about the project
