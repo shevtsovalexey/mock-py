@@ -1,12 +1,17 @@
 [project]
 name = "mock_py"
-readme = "README.md"
 requires-python = ">=3.10"
 dynamic = ["version", "dependencies"]
+authors = [{ name = "Package Author", email = "pauthor@mail.com" }]
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
 
 
 [build-system]
-requires = ["setuptools>=75.0.0", "wheel"]
+requires = ["setuptools>=77.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 
